@@ -1,11 +1,19 @@
 import React from 'react'
 import {Card,Container,Row,Col} from 'react-bootstrap'
+import pictures from '../pictures'
 
 const Gallery = ({picture}) => {
     return (
         <>
-      
-       <Card className="my-3 p-3  rounded">
+         <section>
+        <h1>
+            Gallery:
+        </h1>
+
+      <Row>
+              {pictures.map((picture)=>(
+                  <Col  sm={12} md={6} lg={4} xl={3}>
+                  <Card className="my-3 p-3  rounded">
              
                 <Card.Img src={picture.image} variant='top' />
            
@@ -26,6 +34,12 @@ const Gallery = ({picture}) => {
             </Card.Body>
             
           </Card>
+                  </Col>
+              ))}
+              </Row>
+              </section> 
+      
+     
         </>
     )
 }

@@ -16,12 +16,28 @@ main{
 }
 .header {
     background: #664c8f;
- 
+    
     padding: 100px 100px;       
     
 }
-h1 {
+.h1 {
     color: white;
     font-family: Arial;
     text-align: center;
+}
+.di{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+
+
+    left: 50%;
+  
+  
+    top: 50%;
+  
+  
+    transform: translate(-50%, -50%);
+  
+  
 }

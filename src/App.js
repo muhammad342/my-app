@@ -9,6 +9,7 @@ import Gallery from './pages/Gallery'
 import { BrowserRouter as  Router , Route} from 'react-router-dom'
 import { Container } from 'react-bootstrap';
 import Footer from './Components/Footer';
+import Blog from './pages/Blog';
 
 const App = () => {
   return (
@@ -17,10 +18,12 @@ const App = () => {
     <Header/>
     <main>
       <Container className='py-3'>
-        <Route path='/' component={Home} exact />
+      <Route path='/' component={Home} exact />
+        <Route path='/Home' component={Home}  />
         <Route path='/About' component={About} />
         <Route path='/Contact'  component={Contact_us} />
         <Route path='/Gallery'  component={Gallery} />
+        <Route path='/Blog'  component={Blog} />
      </Container>
      </main>
      <Footer/>

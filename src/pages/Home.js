@@ -12,12 +12,28 @@ const Home = () => {
         <>
         <section>
         <div className="header">
-    <h1>This is a Banner displaying Some text.</h1>
+    <h1 className='h1'>This is a Banner displaying Some text.</h1> 
 </div>
         </section>
+        <article>
+            <Card className='my-3'>
+
+                <Card.Body>
+                    <Card.Text>
+                        <p>
+                        Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+                        </p>
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+        </article>
        
 
        <section>
+           <h4>
+               Gallery :
+           </h4>
       
 
       <Row>

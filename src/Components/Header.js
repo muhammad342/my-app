@@ -13,7 +13,7 @@ const Header = () => {
     <Navbar.Brand >MY-APP</Navbar.Brand>
     </LinkContainer>
     <Nav className="me-auto">
-        <LinkContainer to='/'>
+        <LinkContainer to='/Home'>
       <Nav.Link >Home</Nav.Link>
       </LinkContainer>
       <LinkContainer to='/About'>
@@ -24,6 +24,9 @@ const Header = () => {
       </LinkContainer>
       <LinkContainer to='/Gallery'>
       <Nav.Link >Gallery</Nav.Link>
+      </LinkContainer>
+      <LinkContainer to='/Blog'>
+      <Nav.Link >Blog</Nav.Link>
       </LinkContainer>
     </Nav>
     </Container>

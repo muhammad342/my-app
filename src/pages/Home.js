@@ -1,5 +1,5 @@
 import React from 'react'
-import Gallery from './Gallery'
+
 import pictures from '../pictures'
 import {Row,Col,Card} from 'react-bootstrap'
 
@@ -10,12 +10,15 @@ import {Row,Col,Card} from 'react-bootstrap'
 const Home = () => {
     return (
         <>
+        <section>
+        <div className="header">
+    <h1>This is a Banner displaying Some text.</h1>
+</div>
+        </section>
        
 
        <section>
-        <h1>
-            Gallery:
-        </h1>
+      
 
       <Row>
               {pictures.map((picture)=>(

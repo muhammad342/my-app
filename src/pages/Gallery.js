@@ -1,5 +1,5 @@
 import React from 'react'
-import {Card,Container,Row,Col} from 'react-bootstrap'
+import {Card,Row,Col} from 'react-bootstrap'
 import pictures from '../pictures'
 
 const Gallery = () => {

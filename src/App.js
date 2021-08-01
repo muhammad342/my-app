@@ -8,6 +8,7 @@ import Header from './Components/Header';
 import Gallery from './pages/Gallery'
 import { BrowserRouter as  Router , Route} from 'react-router-dom'
 import { Container } from 'react-bootstrap';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/Gallery'  component={Gallery} />
      </Container>
      </main>
+     <Footer/>
      </Router>
     </>
   )

@@ -10,12 +10,14 @@ import { BrowserRouter as  Router , Route} from 'react-router-dom'
 import { Container } from 'react-bootstrap';
 import Footer from './Components/Footer';
 import Blog from './pages/Blog';
+import Buttons from './Components/button'
 
 const App = () => {
   return (
     <>
     <Router>
     <Header/>
+    <Buttons/>
     <main>
       <Container className='py-3'>
       <Route path='/' component={Home} exact />
